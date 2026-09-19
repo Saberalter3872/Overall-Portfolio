@@ -37,9 +37,10 @@ const Model = {
     { group: "Spoken Languages", items: [
       ["English", 100], ["German (Deutsch: Level A2)", 30], ["Mandarin", 70],
     ]},
-        { group: "Others", items: [
+    { group: "Others", items: [
       ["Stage Lighting & Sound Design", 60], ["Drama Acting", 50], 
-      ["Script Writing", 40],
+      ["Script Writing", 40], ["Diving: Basic Open Waters · Swimming: Swim Saver Silver", 70],
+      ["Teakwondo: Black Belt Dan 1", 60], ["Aikido", 20], ["Stop Motion Animation", 20],
     ]},
     { group: "Working to learn", items: [
       ["Blender", 50], ["Arduino", 30], ["Cosplay Prop Making", 60],
