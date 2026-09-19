@@ -473,6 +473,24 @@ body.has-art-home #big-name .ch:not(.box):not(.boxw){
 }
 .cv-btn:active{transform:skewX(-8deg) scale(.97);}
 
+/* ============ Photo Portfolio DOWNLOAD BUTTON ============ */
+.portfolio-btn{
+  display:inline-block;margin-bottom:6vh;text-decoration:none;
+  background:var(--red);color:var(--white);
+  font-family:'Archivo Black','Arial Black',Impact,sans-serif;
+  font-size:clamp(17px,2.2vw,24px);text-transform:uppercase;letter-spacing:.06em;
+  padding:16px 30px;transform:skewX(-8deg) rotate(-1deg);
+  box-shadow:7px 7px 0 var(--black);
+  transition:transform .15s, background .15s, color .15s, box-shadow .15s;
+}
+.portfolio-btn span{display:inline-block;transform:skewX(8deg);}
+.portfolio-btn:hover{
+  background:var(--white);color:var(--red);
+  transform:skewX(-8deg) rotate(0) scale(1.05);
+  box-shadow:10px 10px 0 var(--black);
+}
+.portfolio-btn:active{transform:skewX(-8deg) scale(.97);}
+
 /* ============ CONTACT FORM ============ */
 #contact-form{width:100%;}
 .form-head{
