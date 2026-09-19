@@ -85,9 +85,9 @@ const Model = {
 
       // Optional thumbnail overrides: repo name → image path.
       // Anything not listed is looked up at assets/projects/<RepoName>.png
-      projectImages: {
+      //projectImages: {
         // "DownloadGuard": "assets/projects/downloadguard.png",
-      },
+      //},
 
   langColors: {
     JavaScript: "#f1e05a", TypeScript: "#3178c6", Python: "#3572A5",
