@@ -97,23 +97,29 @@ const Model = {
 
   // ---- Skills screen ----
   skills: [
-    { group: "AI · ML · Data Science", items: [
-      ["Python · pandas · NumPy", 92], ["TensorFlow / Keras · PyTorch", 88],
-      ["scikit-learn · XGBoost", 86], ["CNNs & Transfer Learning", 85],
-      ["NLP & Transformers", 82], ["Computer Vision · MediaPipe", 86],
+    { group: "Photography & Videography", items: [
+      ["Photoshop · Lightroom · Darktable", 95], ["Premiere Pro · Davinci Resolve", 65], 
+      ["After Effects", 40], ["Audition", 30],
+      ["Canva", 100], ["Illustration · Clip Studio Paint · Sai · Krita", 70],
+      ["Studio Set-up", 70], ["Social Media Management - Facebook · Instagram  · XiaoHongShu", 65]
+      ["Video Editing", 80], ["Photography", 90], ["Subtitling", 70]
     ]},
-    { group: "Web & Full-Stack", items: [
-      ["JavaScript / TypeScript", 86], ["React · React Native · Next.js", 84],
-      ["Node.js · REST APIs", 80], ["TensorFlow.js (in-browser ML)", 84],
-      ["PHP · SQL · PostgreSQL", 74], ["UX Design · Figma · Adobe XD", 82],
+    { group: "Mechanical & Cloud Engineering", items: [
+      ["Node.js", 65], ["Solid Edge · SolidWorks", 70],
+      ["Git & GitHub", 20], ["Bash · PowerShell", 15],
     ]},
-    { group: "Cloud & Engineering", items: [
-      ["Git & GitHub", 88], ["AWS · Azure · GCP", 74],
-      ["Docker · Firebase", 76], ["Agile · PRINCE2 Agile", 80],
-      ["Tableau · Power BI", 72], ["Bash · PowerShell", 75],
+    { group: "Office", items: [
+      ["Word", 100], ["PowerPoint", 100], ["Excel", 90],
     ]},
     { group: "Spoken Languages", items: [
-      ["English · Bengali · Hindi · Urdu", 100], ["Japanese (JLPT N4)", 62], ["Mandarin", 30],
+      ["English", 100], ["German (Deutsch: Level A2)", 30], ["Mandarin", 70],
+    ]},
+        { group: "Others", items: [
+      ["Stage Lighting & Sound Design", 60], ["Drama Acting", 50], 
+      ["Script Writing", 40],
+    ]},
+    { group: "Working to learn", items: [
+      ["Blender", 50], ["Arduino", 30], ["Cosplay Prop Making", 60],
     ]},
   ],
 
