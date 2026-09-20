@@ -95,7 +95,8 @@ const View = {
     } catch {}
   },
 
-  /* ---------- Project cards ---------- */
+  /* ---------- Project cards (archived for later restoration) ---------- */
+  /*
   cardThumb(src) {
     return `<div class="thumb"><img src="${src}" alt="" loading="lazy"
       onerror="this.closest('.thumb').remove()"></div>`;
@@ -149,6 +150,7 @@ const View = {
       this.els.repoGrid.appendChild(a);
     });
   },
+  */
 
   /* ---------- Skills ---------- */
   renderSkills(groups) {

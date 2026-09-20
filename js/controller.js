@@ -69,7 +69,8 @@ const Controller = {
       () => {                       // mid-wipe: swap screens while covered
         Model.state.screen = screen;
         View.showScreen(screen);
-        if (screen === "projects") this.loadProjects();
+        // Archived: project screen loading kept here for later restore.
+        // if (screen === "projects") this.loadProjects();
         if (screen === "skills") this.loadSkills();
       },
       () => { this.transitioning = false; }
@@ -85,6 +86,8 @@ const Controller = {
   },
 
   /* ---------- Screen data loading ---------- */
+  // Archived project loader kept for future restoration.
+  /*
   async loadProjects() {
     View.renderFeatured(Model.featured);
     if (Model.state.reposLoaded) return;
@@ -95,6 +98,7 @@ const Controller = {
     View.renderRepos(repos, status, Model);
     Model.state.reposLoaded = true;
   },
+  */
 
   loadSkills() {
     if (!Model.state.skillsBuilt) {

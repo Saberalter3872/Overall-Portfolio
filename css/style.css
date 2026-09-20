@@ -167,7 +167,8 @@ body[data-screen]:not([data-screen="home"]) #slash{
 }
 .back-hint:hover{background:var(--red);color:var(--white);}
 
-/* ---------- PROJECTS ---------- */
+/* ---------- PROJECTS (archived for later restoration) ---------- */
+/*
 #repo-status{font-size:15px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:2vh;opacity:.85;}
 .grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
@@ -244,6 +245,7 @@ body[data-screen]:not([data-screen="home"]) #slash{
 }
 .grid-label .bar{display:inline-block;width:34px;height:12px;background:var(--white);
   transform:skewX(-24deg);margin-right:12px;vertical-align:baseline;}
+*/
 
 /* ---------- SKILLS ---------- */
 .skill-group{margin-bottom:5vh;max-width:920px;}
